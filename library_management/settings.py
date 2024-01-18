@@ -36,7 +36,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
+ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = [
+    'https://national-library-umob.onrender.com', 'https://*.127.0.0.1']
 
 
 # Application definition
@@ -114,9 +116,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 
-ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = [
-    'https://*.library-9u9q.onrender.com', 'https://*.127.0.0.1']
+
 
 # DATABASES = {
 #     'default': dj_database_url.config(
