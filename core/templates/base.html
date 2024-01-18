@@ -21,6 +21,19 @@
     </head>
     <body class="bg-blue-500">
         {% include 'navbar.html' %}
+<section class="dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Recollect Your Past For The Future</h1>
+            <p class="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">A national library is a library established by a government as a country's preeminent repository of information. Libraries provide access to resources and materials that might not be available or affordable, allowing students to further their learning, understanding, and research. Furthermore, libraries provide a safe and welcoming space for students to study and interact with other students and community members</p>
+
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img class="rounded-xl" src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D">
+        </div>
+    </div>
+    <hr>
+</section>
         {% block body %}
             <div class="lg:container lg:mx-auto mb-20 " id="main">
                 {% include 'messages.html' %}
