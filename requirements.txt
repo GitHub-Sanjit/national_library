@@ -1,0 +1,13 @@
+asgiref
+Django
+django-environ
+django-filter
+djangorestframework
+importlib-metadata
+Markdown
+pillow
+pytz
+sqlparse
+typing-extensions
+tzdata
+zipp
